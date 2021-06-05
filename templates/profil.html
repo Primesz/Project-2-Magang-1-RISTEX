@@ -1,0 +1,62 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="main-header">{{ judul }}</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{%  static  'css/styleprofil.css'  %}"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div id="all-header">
+        <img id="ristex-image" class="header-web" src="{% static "photos/Logo-ristex.jpg" %}">
+        <h1 id="site-title" class="header-web">My Blog</h1>
+      </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="navbar" id="home-menu"><a href="/">Home</a></li>
+            <li class="navbar" id="profile-menu"><a href="/profil">Profile</a></li>
+            <li class="navbar" id="blog-menu"><a href="/blog">Blog</a></li>
+        </ul>
+    </nav>
+
+    <main>
+      <div class='profile-container'>
+      <div class='profile-card'>
+        <div class='img-container'>
+        <img class='profile-photo' src='{% static 'photos/Prima.jpg' %}'>
+        </div>
+        <h4 class='profile-name'>Primanda Adyatma Hafiz</h4>
+        <p class='profile-detail'>16520194</p>
+        <p class='profile-detail'>TPB STEI</p>
+        <p class='profile-description'>Saya adalah orang yang sangat tertarik pada bidang sains dan teknologi serta suka belajar hal-hal baru. Hobi saya yaitu menonton pertandingan sepakbola dan melakukan pengamatan dengan teleskop.</p>
+      </div>
+      <div class='profile-card'>
+        <div class='img-container'>
+          <img class='profile-photo' src='{% static 'photos/Jason.jpg' %}'>
+        </div>
+        <h4 class='profile-name'>Jason Kanggara</h4>
+        <p class='profile-detail'>16520214</p>
+        <p class='profile-detail'>TPB STEI</p>
+        <p class='profile-description'>Saya sangat menyukai hal hal yang berbau teknologi. Saat setelah lulus SMA saya mulai tertarik dengan pemrograman. Saya suka mengeksplor dan belajar hal baru. Hobi saya nonton youtube, dengar musik, dan bermain type racer.</p>
+      </div>
+      <div class='profile-card'>
+        <div class='img-container'>
+          <img class='profile-photo' src='{% static 'photos/Karina.jpg' %}'>
+        </div>
+        <h4 class='profile-name'>Karina Widya Ramadhani</h4>
+        <p class='profile-detail'>16020053</p>
+        <p class='profile-detail'>TPB FMIPA</p>
+        <p class='profile-description'> Saya adalah seseorang yang menyukai alam dan hal-hal yang berbau teknologi. Hobi saya adalah menonton film, jalan-jalan, dan mendengarkan musik.</p>
+      </div>
+      </div>
+    </main>
+  </body>
+</html>

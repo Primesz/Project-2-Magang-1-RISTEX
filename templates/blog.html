@@ -1,0 +1,93 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="main-header">{{ judul }}</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{%  static  'css/styleblog.css'  %}"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div id="all-header">
+        <img id="ristex-image" class="header-web" src="{% static "photos/Logo-ristex.jpg" %}">
+        <h1 id="site-title" class="header-web">My Blog</h1>
+      </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="navbar" id="home-menu"><a href="/">Home</a></li>
+            <li class="navbar" id="profile-menu"><a href="/profil">Profile</a></li>
+            <li class="navbar" id="blog-menu"><a href="/blog">Blog</a></li>
+        </ul>
+    </nav>
+
+	<main>
+	
+	
+	 <div class="row">
+	 <div class="leftcolumn">
+	 <div class='profile-card'>
+				
+	   <div class="card">
+	   <h1>Project Tahap 1 RISTEX</h1>
+	   <h5>29 Mei 2021</h5>
+	   <center> <img id="profil-image" src="{% static "photos/task.jpg" %}" alt=""> </center>
+	   <p>Project Tahap 1 RISTEX adalah sebuah project pembuatan rancangan website menggunakan Django....</p>
+			<div class="modal-container">
+			  <input id="modal-toggle" type="checkbox">
+			  <button>Baca Selengkapnya</button>
+			  <div class="modal-backdrop">
+				<div class="modal-content">
+				  <h2>Project Tahap 1 RISTEX</h2>
+				  <hr />
+				  <p> Project Tahap 1 RISTEX adalah sebuah tugas project pembuatan rancangan 
+				  website menggunakan Django. Website kami berisi homepage, laman profil tim, dan blog post. 
+				  Bahasa pemrograman yang kami gunakan adalah HTML dan CSS. Project ini ditugaskan untuk 2 kelompok
+				  tim RISTEX. Tiap kelompok tim RISTEX memiliki 3-4 anggota.</p>
+				</div>
+			  </div>
+			</div>
+		</div>
+	 </div>
+	 </div>
+	 </div>
+	
+	<h1></h1><h1></h1><h1></h1>
+	
+	 <div class="row">
+	 <div class="leftcolumn">
+	 <div class='profile-card'>
+	 
+		<div class="card">
+		<h1>Apa Itu Django?</h1>
+		<h5>29 Mei 2021</h5>
+		<center> <img id="profil-image" src="{% static "photos/django.jpg" %}" alt=""> </center>
+		<p>Django adalah sebuah kerangka kerja full-stack untuk membuat aplikasi web dengan bahasa...</p>
+			<div class="modal-container">
+			  <input id="modal-toggle" type="checkbox">
+			  <button>Baca Selengkapnya</button>
+			  <div class="modal-backdrop">
+				<div class="modal-content">
+				  <h2>Apa Itu Django?</h2>
+				  <hr />
+				  <p> Django adalah sebuah kerangka kerja full-stack untuk membuat aplikasi web dengan bahasa pemrograman python. 
+				  Django juga merupakan kerangka kerja python web tingkat tinggi yang dapat melakukan pengembangan aplikasi dengan cepat dan memiliki desain pragmatis yang bersih.
+				  Django dapat membuat pengembangan aplikasi menjadi lebih mudah, lebih cepat dan lebih sedikit menggunakan kode.</p>
+				</div>
+			  </div>
+			</div>
+		</div>
+	 </div>	
+	 </div>	
+	 </div>
+	 
+
+	</main>
+  </body>
+</html>

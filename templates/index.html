@@ -1,0 +1,46 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="main-header">{{ judul }}</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{%  static  'css/stylehome.css'  %}"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div id="all-header">
+        <img id="ristex-image" class="header-web" src="{% static "photos/Logo-Ristex.jpg" %}">
+        <h1 id="site-title" class="header-web">My Blog</h1>
+      </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="navbar" id="home-menu"><a href="/">Home</a></li>
+            <li class="navbar" id="profile-menu"><a href="/profil">Profile</a></li>
+            <li class="navbar" id="blog-menu"><a href="/blog">Blog</a></li>
+        </ul>
+    </nav>
+
+    <section class="menu">
+      <a class="menu-link" href="/profil">
+        <article class="menu-section">
+          <img id="profil-image" src="{% static "photos/profileicon.jpg" %}"
+          alt="">
+          <h3><center>Profile</center></h3>
+        </article>
+      </a>
+      <a class="menu-link" href="/blog">
+        <article class="menu-section">
+          <img id="blog-image" src="{% static "photos/blogicon.jpg" %}" alt="">
+          <h3><center>Blog</center></h3>
+        </article>
+      </a>
+    </section>
+  </body>
+</html>
