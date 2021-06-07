@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+<<<<<<< HEAD
 from django.db import models
 import datetime
 class Blog(models.Model):
@@ -11,3 +12,5 @@ class Blog(models.Model):
     author=models.CharField(max_length=200)
     def __str__(self):
         return self.title
+=======
+>>>>>>> 547a2971384fd6ae1acd61238effeaee58ae52c4

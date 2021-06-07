@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
@@ -71,4 +72,97 @@ body{
 
 .description h2{
     margin-bottom: 5vh;
+=======
+#site-title {
+  color: #000;
+  padding: 10px;
+}
+
+nav a {
+  font-family: arial;
+  color: #f9f9f9;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+  padding: 13px;
+}
+
+nav a:hover {
+  color: #999;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.header-web {
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#all-header {
+  border-bottom: 5px solid #555;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.profile-card {
+  border: 5px solid #555;
+  /* height: 25em; */
+  width: 25%;
+  border-radius: 25px;
+}
+
+.profile-name {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-photo {
+  margin: 10px;
+  width: 12em;
+}
+.profile-detail,
+.profile-description {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+}
+
+.profile-detail {
+  margin: 5px;
+}
+
+.profile-description {
+  margin: 5px 15px;
+  text-align: center;
+}
+
+#profile-menu a {
+  color: #0492d2;
+>>>>>>> 547a2971384fd6ae1acd61238effeaee58ae52c4
 }

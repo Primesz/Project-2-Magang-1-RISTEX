@@ -1,4 +1,5 @@
 from django.shortcuts import render
+<<<<<<< HEAD
 from .models import Blog
 # Create your views here.
 def blog_index(request):
@@ -13,3 +14,12 @@ def blog_detail(request, pk):
     'blog': blog
     }
     return render(request, 'blog_detail.html', context)
+=======
+
+# Create your views here.
+def index(request):
+    context={
+        'judul':'blog'
+    }
+    return render(request,'blog.html',context)
+>>>>>>> 547a2971384fd6ae1acd61238effeaee58ae52c4

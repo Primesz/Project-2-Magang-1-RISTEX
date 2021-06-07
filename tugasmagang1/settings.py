@@ -21,7 +21,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 SECRET_KEY = 'django-insecure-!kf*v8oo3^k+m5&*x6^&5y+d2+90ua6atmq@l2904&(io&zydi'
+=======
+SECRET_KEY = 'django-insecure-!9tu#!n3b#(0*r&h-c2%t9fq%$rc%n&nd8%6@cpcb2!undzq8$'
+>>>>>>> 547a2971384fd6ae1acd61238effeaee58ae52c4
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -39,8 +43,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'homepage',
+<<<<<<< HEAD
     'profil',
     'blog',
+=======
+    'blog',
+    'profil',
+>>>>>>> 547a2971384fd6ae1acd61238effeaee58ae52c4
     'KalkulatorKesehatan',
 ]
 
@@ -110,7 +119,11 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
+<<<<<<< HEAD
 TIME_ZONE = 'Asia/Jakarta'
+=======
+TIME_ZONE = 'UTC'
+>>>>>>> 547a2971384fd6ae1acd61238effeaee58ae52c4
 
 USE_I18N = True
 

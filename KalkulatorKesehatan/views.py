@@ -9,4 +9,7 @@ def KalkulatorKesehatan(request):
     return render(request,'profil.html',context)
 
 # Janlup diganti
+<<<<<<< HEAD
 
+=======
+>>>>>>> 547a2971384fd6ae1acd61238effeaee58ae52c4
